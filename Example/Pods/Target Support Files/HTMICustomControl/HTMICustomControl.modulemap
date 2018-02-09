@@ -1,6 +1,0 @@
-framework module HTMICustomControl {
-  umbrella header "HTMICustomControl-umbrella.h"
-
-  export *
-  module * { export * }
-}
