@@ -1,0 +1,16 @@
+PODS:
+  - HTMICustomControl (0.1.0)
+
+DEPENDENCIES:
+  - HTMICustomControl (from `../`)
+
+EXTERNAL SOURCES:
+  HTMICustomControl:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HTMICustomControl: 5cc1c6721c7e5b2706d8479bc2f722953945e296
+
+PODFILE CHECKSUM: 990c049b8887b54c58c6de97694e637e30507b42
+
+COCOAPODS: 1.4.0.beta.2

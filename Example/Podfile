@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HTMICustomControl_Example' do
+  pod 'HTMICustomControl', :path => '../'
+
+  target 'HTMICustomControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

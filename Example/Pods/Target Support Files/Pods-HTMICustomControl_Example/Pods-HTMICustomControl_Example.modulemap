@@ -1,0 +1,6 @@
+framework module Pods_HTMICustomControl_Example {
+  umbrella header "Pods-HTMICustomControl_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
