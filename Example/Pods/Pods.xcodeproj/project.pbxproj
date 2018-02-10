@@ -13,6 +13,20 @@
 		0B8DBAB184BB7E8E1D9C5E3386A8DEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		183AB0B6B376AE4C2C1F9A945B956990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA75099E263FEEEAC4EABC8DDDC7FEE0 /* Foundation.framework */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		1BB07264202E89B6006E0A49 /* HTMIMultiplePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB07242202E89A6006E0A49 /* HTMIMultiplePickerView.m */; };
+		1BB07265202E89BA006E0A49 /* HTMIToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB07245202E89A6006E0A49 /* HTMIToolBar.m */; };
+		1BB07266202E89BD006E0A49 /* HTMIMultipleAssociatedPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB07246202E89A6006E0A49 /* HTMIMultipleAssociatedPickerView.m */; };
+		1BB07267202E89BF006E0A49 /* HTMIDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB07247202E89A6006E0A49 /* HTMIDatePickerView.m */; };
+		1BB07268202E89C1006E0A49 /* HTMISelectedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB07248202E89A6006E0A49 /* HTMISelectedTextField.m */; };
+		1BB07269202E89C4006E0A49 /* HTMISinglePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0724A202E89A6006E0A49 /* HTMISinglePickerView.m */; };
+		1BB0726A202E89C7006E0A49 /* HTMIUsefulPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0724E202E89A6006E0A49 /* HTMIUsefulPickerView.m */; };
+		1BB0726B202E89CE006E0A49 /* HTMICustomNavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB07252202E89A6006E0A49 /* HTMICustomNavigationBarView.m */; };
+		1BB0726C202E89D2006E0A49 /* HTMIVerificationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB07256202E89A6006E0A49 /* HTMIVerificationCodeView.m */; };
+		1BB0726D202E89D7006E0A49 /* HTMISearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0725B202E89A6006E0A49 /* HTMISearchViewController.m */; };
+		1BB0726E202E89D9006E0A49 /* HTMISearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0725C202E89A6006E0A49 /* HTMISearchBar.m */; };
+		1BB0726F202E89DB006E0A49 /* HTMISearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0725D202E89A6006E0A49 /* HTMISearchController.m */; };
+		1BB07270202E89E0006E0A49 /* HTMIValuePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0725F202E89A6006E0A49 /* HTMIValuePickerView.m */; };
+		1BB07271202E89E3006E0A49 /* HTMIWatermarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB07262202E89A6006E0A49 /* HTMIWatermarkView.m */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		3B83A2F08BC090A6FD3EBA869E1BD39D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */; };
@@ -59,23 +73,54 @@
 
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		08411E2B95403D32BD71C6D88D10F710 /* HTMICustomControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HTMICustomControl.modulemap; sourceTree = "<group>"; };
+		08411E2B95403D32BD71C6D88D10F710 /* HTMICustomControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HTMICustomControl.modulemap; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		0E496C2E8F5310CCD9757EFC3961482B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		1BB07240202E89A6006E0A49 /* HTMISinglePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMISinglePickerView.h; sourceTree = "<group>"; };
+		1BB07241202E89A6006E0A49 /* Area.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Area.plist; sourceTree = "<group>"; };
+		1BB07242202E89A6006E0A49 /* HTMIMultiplePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMIMultiplePickerView.m; sourceTree = "<group>"; };
+		1BB07243202E89A6006E0A49 /* Province.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Province.plist; sourceTree = "<group>"; };
+		1BB07244202E89A6006E0A49 /* HTMIUsefulPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMIUsefulPickerView.h; sourceTree = "<group>"; };
+		1BB07245202E89A6006E0A49 /* HTMIToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMIToolBar.m; sourceTree = "<group>"; };
+		1BB07246202E89A6006E0A49 /* HTMIMultipleAssociatedPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMIMultipleAssociatedPickerView.m; sourceTree = "<group>"; };
+		1BB07247202E89A6006E0A49 /* HTMIDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMIDatePickerView.m; sourceTree = "<group>"; };
+		1BB07248202E89A6006E0A49 /* HTMISelectedTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMISelectedTextField.m; sourceTree = "<group>"; };
+		1BB07249202E89A6006E0A49 /* HTMIMultiplePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMIMultiplePickerView.h; sourceTree = "<group>"; };
+		1BB0724A202E89A6006E0A49 /* HTMISinglePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMISinglePickerView.m; sourceTree = "<group>"; };
+		1BB0724B202E89A6006E0A49 /* City.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = City.plist; sourceTree = "<group>"; };
+		1BB0724C202E89A6006E0A49 /* HTMIMultipleAssociatedPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMIMultipleAssociatedPickerView.h; sourceTree = "<group>"; };
+		1BB0724D202E89A6006E0A49 /* HTMIToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMIToolBar.h; sourceTree = "<group>"; };
+		1BB0724E202E89A6006E0A49 /* HTMIUsefulPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMIUsefulPickerView.m; sourceTree = "<group>"; };
+		1BB0724F202E89A6006E0A49 /* HTMISelectedTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMISelectedTextField.h; sourceTree = "<group>"; };
+		1BB07250202E89A6006E0A49 /* HTMIDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMIDatePickerView.h; sourceTree = "<group>"; };
+		1BB07252202E89A6006E0A49 /* HTMICustomNavigationBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMICustomNavigationBarView.m; sourceTree = "<group>"; };
+		1BB07253202E89A6006E0A49 /* HTMICustomNavigationBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMICustomNavigationBarView.h; sourceTree = "<group>"; };
+		1BB07255202E89A6006E0A49 /* HTMIVerificationCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMIVerificationCodeView.h; sourceTree = "<group>"; };
+		1BB07256202E89A6006E0A49 /* HTMIVerificationCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMIVerificationCodeView.m; sourceTree = "<group>"; };
+		1BB07258202E89A6006E0A49 /* HTMISearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMISearchBar.h; sourceTree = "<group>"; };
+		1BB07259202E89A6006E0A49 /* HTMISearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMISearchViewController.h; sourceTree = "<group>"; };
+		1BB0725A202E89A6006E0A49 /* HTMISearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMISearchController.h; sourceTree = "<group>"; };
+		1BB0725B202E89A6006E0A49 /* HTMISearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMISearchViewController.m; sourceTree = "<group>"; };
+		1BB0725C202E89A6006E0A49 /* HTMISearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMISearchBar.m; sourceTree = "<group>"; };
+		1BB0725D202E89A6006E0A49 /* HTMISearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMISearchController.m; sourceTree = "<group>"; };
+		1BB0725F202E89A6006E0A49 /* HTMIValuePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMIValuePickerView.m; sourceTree = "<group>"; };
+		1BB07260202E89A6006E0A49 /* HTMIValuePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMIValuePickerView.h; sourceTree = "<group>"; };
+		1BB07262202E89A6006E0A49 /* HTMIWatermarkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMIWatermarkView.m; sourceTree = "<group>"; };
+		1BB07263202E89A6006E0A49 /* HTMIWatermarkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMIWatermarkView.h; sourceTree = "<group>"; };
 		203FF9EF83637AF1D50830AB56096361 /* Pods-HTMICustomControl_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTMICustomControl_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2E0FFBF9DE27EE66B1D8A852442A2B40 /* Pods-HTMICustomControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMICustomControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		38AA00FA405538AEE3541A8BE02C5AE1 /* Pods_HTMICustomControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTMICustomControl_Example.framework; path = "Pods-HTMICustomControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38AA00FA405538AEE3541A8BE02C5AE1 /* Pods_HTMICustomControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMICustomControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38DD8B4B15D72226C22D481529CB4504 /* HTMICustomControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTMICustomControl-dummy.m"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3C32099E0A716483F90035D502A494AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		3EB948EC7D38128A6542CD6EE2162895 /* HTMICustomControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTMICustomControl.framework; path = HTMICustomControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB948EC7D38128A6542CD6EE2162895 /* HTMICustomControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTMICustomControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41342C8431DAAFD900CDBA3C3B840CBB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		437624F375CCE4A8E415FA98B1BDD243 /* Pods-HTMICustomControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HTMICustomControl_Tests.modulemap"; sourceTree = "<group>"; };
+		437624F375CCE4A8E415FA98B1BDD243 /* Pods-HTMICustomControl_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HTMICustomControl_Tests.modulemap"; sourceTree = "<group>"; };
 		451FE8460BAF0CC6BFF600826CE90C0F /* Pods-HTMICustomControl_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTMICustomControl_Tests-dummy.m"; sourceTree = "<group>"; };
 		49A268196F725C10F678E415F30D0E42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		523318D439478C453039AC2C5E05D41E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,13 +133,13 @@
 		785E52FBAEB9AB553D33F113D106AB16 /* HTMICustomControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTMICustomControl.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		7E912BE2F6645948634FEB31B4C6AA66 /* HTMICustomControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTMICustomControl-umbrella.h"; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		8AF1B6A021903A5FAF58CBC9EEBF8DA5 /* Pods_HTMICustomControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTMICustomControl_Tests.framework; path = "Pods-HTMICustomControl_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF1B6A021903A5FAF58CBC9EEBF8DA5 /* Pods_HTMICustomControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMICustomControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB7A1B877E85F6CCB70BE40B3C5E4F2 /* Pods-HTMICustomControl_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMICustomControl_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97D6772C9729F92F7107783D119F05B3 /* Pods-HTMICustomControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTMICustomControl_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D5C4FB5C7B6E7ABFC24571231EDF0DB /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5C4FB5C7B6E7ABFC24571231EDF0DB /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A476F93BA8C0C72F639AC9D7CB5A65C3 /* Pods-HTMICustomControl_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTMICustomControl_Tests-resources.sh"; sourceTree = "<group>"; };
 		A9E711AE65C45B3BE80896147F923B64 /* Pods-HTMICustomControl_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTMICustomControl_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B07C483E62BDDF81650BA05223673B65 /* Pods-HTMICustomControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTMICustomControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,7 +159,7 @@
 		EA218E3A99A204EA44299252F36C3065 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5B9AC36DC2B81AD1521A51C3B1197C9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		F7D614BE948567492CB758E8CEAE576A /* Pods-HTMICustomControl_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTMICustomControl_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FC05BAD755963D50D7CC9602FFEBA0E0 /* Pods-HTMICustomControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HTMICustomControl_Example.modulemap"; sourceTree = "<group>"; };
+		FC05BAD755963D50D7CC9602FFEBA0E0 /* Pods-HTMICustomControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HTMICustomControl_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +223,92 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
+		1BB0723E202E89A6006E0A49 /* CustomControl */ = {
+			isa = PBXGroup;
+			children = (
+				1BB0723F202E89A6006E0A49 /* HTMIUsefulPickerView */,
+				1BB07251202E89A6006E0A49 /* HTMICustomNavigationBarView */,
+				1BB07254202E89A6006E0A49 /* VerificationCodeView */,
+				1BB07257202E89A6006E0A49 /* HTMISearchBar */,
+				1BB0725E202E89A6006E0A49 /* HTMIValuePickerView */,
+				1BB07261202E89A6006E0A49 /* WatermarkView */,
+			);
+			path = CustomControl;
+			sourceTree = "<group>";
+		};
+		1BB0723F202E89A6006E0A49 /* HTMIUsefulPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1BB07240202E89A6006E0A49 /* HTMISinglePickerView.h */,
+				1BB07241202E89A6006E0A49 /* Area.plist */,
+				1BB07242202E89A6006E0A49 /* HTMIMultiplePickerView.m */,
+				1BB07243202E89A6006E0A49 /* Province.plist */,
+				1BB07244202E89A6006E0A49 /* HTMIUsefulPickerView.h */,
+				1BB07245202E89A6006E0A49 /* HTMIToolBar.m */,
+				1BB07246202E89A6006E0A49 /* HTMIMultipleAssociatedPickerView.m */,
+				1BB07247202E89A6006E0A49 /* HTMIDatePickerView.m */,
+				1BB07248202E89A6006E0A49 /* HTMISelectedTextField.m */,
+				1BB07249202E89A6006E0A49 /* HTMIMultiplePickerView.h */,
+				1BB0724A202E89A6006E0A49 /* HTMISinglePickerView.m */,
+				1BB0724B202E89A6006E0A49 /* City.plist */,
+				1BB0724C202E89A6006E0A49 /* HTMIMultipleAssociatedPickerView.h */,
+				1BB0724D202E89A6006E0A49 /* HTMIToolBar.h */,
+				1BB0724E202E89A6006E0A49 /* HTMIUsefulPickerView.m */,
+				1BB0724F202E89A6006E0A49 /* HTMISelectedTextField.h */,
+				1BB07250202E89A6006E0A49 /* HTMIDatePickerView.h */,
+			);
+			path = HTMIUsefulPickerView;
+			sourceTree = "<group>";
+		};
+		1BB07251202E89A6006E0A49 /* HTMICustomNavigationBarView */ = {
+			isa = PBXGroup;
+			children = (
+				1BB07252202E89A6006E0A49 /* HTMICustomNavigationBarView.m */,
+				1BB07253202E89A6006E0A49 /* HTMICustomNavigationBarView.h */,
+			);
+			path = HTMICustomNavigationBarView;
+			sourceTree = "<group>";
+		};
+		1BB07254202E89A6006E0A49 /* VerificationCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				1BB07255202E89A6006E0A49 /* HTMIVerificationCodeView.h */,
+				1BB07256202E89A6006E0A49 /* HTMIVerificationCodeView.m */,
+			);
+			path = VerificationCodeView;
+			sourceTree = "<group>";
+		};
+		1BB07257202E89A6006E0A49 /* HTMISearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				1BB07258202E89A6006E0A49 /* HTMISearchBar.h */,
+				1BB07259202E89A6006E0A49 /* HTMISearchViewController.h */,
+				1BB0725A202E89A6006E0A49 /* HTMISearchController.h */,
+				1BB0725B202E89A6006E0A49 /* HTMISearchViewController.m */,
+				1BB0725C202E89A6006E0A49 /* HTMISearchBar.m */,
+				1BB0725D202E89A6006E0A49 /* HTMISearchController.m */,
+			);
+			path = HTMISearchBar;
+			sourceTree = "<group>";
+		};
+		1BB0725E202E89A6006E0A49 /* HTMIValuePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1BB0725F202E89A6006E0A49 /* HTMIValuePickerView.m */,
+				1BB07260202E89A6006E0A49 /* HTMIValuePickerView.h */,
+			);
+			path = HTMIValuePickerView;
+			sourceTree = "<group>";
+		};
+		1BB07261202E89A6006E0A49 /* WatermarkView */ = {
+			isa = PBXGroup;
+			children = (
+				1BB07262202E89A6006E0A49 /* HTMIWatermarkView.m */,
+				1BB07263202E89A6006E0A49 /* HTMIWatermarkView.h */,
+			);
+			path = WatermarkView;
+			sourceTree = "<group>";
+		};
 		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,7 +316,6 @@
 				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -269,7 +399,6 @@
 			children = (
 				EF8025E3320C2B3946CE3F24DBC3B6A4 /* Classes */,
 			);
-			name = HTMICustomControl;
 			path = HTMICustomControl;
 			sourceTree = "<group>";
 		};
@@ -299,9 +428,9 @@
 		EF8025E3320C2B3946CE3F24DBC3B6A4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1BB0723E202E89A6006E0A49 /* CustomControl */,
 				F5B9AC36DC2B81AD1521A51C3B1197C9 /* ReplaceMe.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -512,7 +641,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BB0726D202E89D7006E0A49 /* HTMISearchViewController.m in Sources */,
+				1BB07267202E89BF006E0A49 /* HTMIDatePickerView.m in Sources */,
+				1BB07266202E89BD006E0A49 /* HTMIMultipleAssociatedPickerView.m in Sources */,
+				1BB0726C202E89D2006E0A49 /* HTMIVerificationCodeView.m in Sources */,
 				FA69C886189EF250AC2A99D4E00E9BDD /* HTMICustomControl-dummy.m in Sources */,
+				1BB0726F202E89DB006E0A49 /* HTMISearchController.m in Sources */,
+				1BB07270202E89E0006E0A49 /* HTMIValuePickerView.m in Sources */,
+				1BB07265202E89BA006E0A49 /* HTMIToolBar.m in Sources */,
+				1BB0726E202E89D9006E0A49 /* HTMISearchBar.m in Sources */,
+				1BB07271202E89E3006E0A49 /* HTMIWatermarkView.m in Sources */,
+				1BB07268202E89C1006E0A49 /* HTMISelectedTextField.m in Sources */,
+				1BB0726B202E89CE006E0A49 /* HTMICustomNavigationBarView.m in Sources */,
+				1BB07264202E89B6006E0A49 /* HTMIMultiplePickerView.m in Sources */,
+				1BB0726A202E89C7006E0A49 /* HTMIUsefulPickerView.m in Sources */,
+				1BB07269202E89C4006E0A49 /* HTMISinglePickerView.m in Sources */,
 				B2EE1CF62172CF21EC00FAF4338BE0A6 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
