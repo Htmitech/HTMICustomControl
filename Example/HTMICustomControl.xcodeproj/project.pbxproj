@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58F43DABACF111A7A3ABACF2 /* Pods_HTMICustomControl_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F56A48AAD89B75C19AC3FB /* Pods_HTMICustomControl_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* HTMIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* HTMIAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* HTMIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HTMIViewController.m */; };
+		6003F59E195388D20070C39A /* htmiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* htmiAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* htmiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* htmiViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,8 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D6133D303CF2987EAE5CFA70 /* Pods_HTMICustomControl_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6F732CEF8BC1602CA0558A /* Pods_HTMICustomControl_Example.framework */; };
-		F9D8B8E34756581ED4F0CC00 /* Pods_HTMICustomControl_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D299ECE5DAE653CEA8C85F7 /* Pods_HTMICustomControl_Tests.framework */; };
+		F34ED20945483574F993FE8D /* Pods_HTMICustomControl_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E999DD552BE77A5DB50AA6 /* Pods_HTMICustomControl_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F15BF8391E1805856B3C152 /* Pods-HTMICustomControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMICustomControl_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTMICustomControl_Example/Pods-HTMICustomControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		42F6531B8B0F61CE61812D67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2356D527DB3BFC1B9A0BC129 /* Pods-HTMICustomControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMICustomControl_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTMICustomControl_Example/Pods-HTMICustomControl_Example.release.xcconfig"; sourceTree = "<group>"; };
+		25975BD6E970FB5DD7E11D93 /* Pods-HTMICustomControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMICustomControl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTMICustomControl_Tests/Pods-HTMICustomControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		26E999DD552BE77A5DB50AA6 /* Pods_HTMICustomControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMICustomControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		499C14B23728E35A1BF20DFA /* Pods-HTMICustomControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMICustomControl_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTMICustomControl_Tests/Pods-HTMICustomControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		49F56A48AAD89B75C19AC3FB /* Pods_HTMICustomControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMICustomControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50C458C79276CB2B12CEAAF8 /* Pods-HTMICustomControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMICustomControl_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTMICustomControl_Example/Pods-HTMICustomControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HTMICustomControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTMICustomControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,10 +51,10 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* HTMICustomControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTMICustomControl-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* HTMIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMIAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* HTMIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMIAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* HTMIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMIViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* HTMIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMIViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* htmiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = htmiAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* htmiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = htmiAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* htmiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = htmiViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* htmiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = htmiViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* HTMICustomControl_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMICustomControl_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,14 +63,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7E2124C45A78260751544FAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		780EED679BCD04C54506B900 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D299ECE5DAE653CEA8C85F7 /* Pods_HTMICustomControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMICustomControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DB9322287C4C8D5BC30DDFE /* Pods-HTMICustomControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMICustomControl_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTMICustomControl_Tests/Pods-HTMICustomControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A321CE9BB88322F063A2B939 /* Pods-HTMICustomControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMICustomControl_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTMICustomControl_Example/Pods-HTMICustomControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BB95CAA8CB8EC4EF0B332A78 /* Pods-HTMICustomControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMICustomControl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTMICustomControl_Tests/Pods-HTMICustomControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CC6F732CEF8BC1602CA0558A /* Pods_HTMICustomControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMICustomControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD6425A023183CA754A1025A /* HTMICustomControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTMICustomControl.podspec; path = ../HTMICustomControl.podspec; sourceTree = "<group>"; };
+		B571AF68137FC439B9ACDEF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C0B9C21995E8050FC193ADAD /* HTMICustomControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTMICustomControl.podspec; path = ../HTMICustomControl.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				D6133D303CF2987EAE5CFA70 /* Pods_HTMICustomControl_Example.framework in Frameworks */,
+				58F43DABACF111A7A3ABACF2 /* Pods_HTMICustomControl_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,13 +88,24 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F9D8B8E34756581ED4F0CC00 /* Pods_HTMICustomControl_Tests.framework in Frameworks */,
+				F34ED20945483574F993FE8D /* Pods_HTMICustomControl_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DCA8CFA1D9B113B6730D03A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50C458C79276CB2B12CEAAF8 /* Pods-HTMICustomControl_Example.debug.xcconfig */,
+				2356D527DB3BFC1B9A0BC129 /* Pods-HTMICustomControl_Example.release.xcconfig */,
+				499C14B23728E35A1BF20DFA /* Pods-HTMICustomControl_Tests.debug.xcconfig */,
+				25975BD6E970FB5DD7E11D93 /* Pods-HTMICustomControl_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +114,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				FE0E98D924C44E59E46D37EF /* Pods */,
+				3DCA8CFA1D9B113B6730D03A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				CC6F732CEF8BC1602CA0558A /* Pods_HTMICustomControl_Example.framework */,
-				8D299ECE5DAE653CEA8C85F7 /* Pods_HTMICustomControl_Tests.framework */,
+				49F56A48AAD89B75C19AC3FB /* Pods_HTMICustomControl_Example.framework */,
+				26E999DD552BE77A5DB50AA6 /* Pods_HTMICustomControl_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,11 +143,11 @@
 		6003F593195388D20070C39A /* Example for HTMICustomControl */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* HTMIAppDelegate.h */,
-				6003F59D195388D20070C39A /* HTMIAppDelegate.m */,
+				6003F59C195388D20070C39A /* htmiAppDelegate.h */,
+				6003F59D195388D20070C39A /* htmiAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* HTMIViewController.h */,
-				6003F5A6195388D20070C39A /* HTMIViewController.m */,
+				6003F5A5195388D20070C39A /* htmiViewController.h */,
+				6003F5A6195388D20070C39A /* htmiViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -178,22 +189,11 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CD6425A023183CA754A1025A /* HTMICustomControl.podspec */,
-				42F6531B8B0F61CE61812D67 /* README.md */,
-				7E2124C45A78260751544FAA /* LICENSE */,
+				C0B9C21995E8050FC193ADAD /* HTMICustomControl.podspec */,
+				780EED679BCD04C54506B900 /* README.md */,
+				B571AF68137FC439B9ACDEF7 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		FE0E98D924C44E59E46D37EF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2F15BF8391E1805856B3C152 /* Pods-HTMICustomControl_Example.debug.xcconfig */,
-				A321CE9BB88322F063A2B939 /* Pods-HTMICustomControl_Example.release.xcconfig */,
-				8DB9322287C4C8D5BC30DDFE /* Pods-HTMICustomControl_Tests.debug.xcconfig */,
-				BB95CAA8CB8EC4EF0B332A78 /* Pods-HTMICustomControl_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,12 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "HTMICustomControl_Example" */;
 			buildPhases = (
-				EFB23F330E78D15ACC624114 /* [CP] Check Pods Manifest.lock */,
+				2868603D762B5465E2A58BA9 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				3161C11BF8F5D0E134ED4179 /* [CP] Embed Pods Frameworks */,
-				D55A6133280ED2709296E9C5 /* [CP] Copy Pods Resources */,
+				990AC26106C46958452E073A /* [CP] Embed Pods Frameworks */,
+				0C7861FD98E28A6182F8DC1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,12 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "HTMICustomControl_Tests" */;
 			buildPhases = (
-				640C7F887F778C80B6E379EC /* [CP] Check Pods Manifest.lock */,
+				31DEB956422752403F282C85 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				90678CCE06AB9D8AABB9D9F5 /* [CP] Embed Pods Frameworks */,
-				644686D2CBB67C9A5CBC83F7 /* [CP] Copy Pods Resources */,
+				784DB2ACCEBB930EA75A65AA /* [CP] Embed Pods Frameworks */,
+				F0B60B3E68709EEBD07A32D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +246,9 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = HTMI;
+				CLASSPREFIX = htmi;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = lqwang521;
+				ORGANIZATIONNAME = lovezhaozhiguo;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -297,73 +297,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3161C11BF8F5D0E134ED4179 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HTMICustomControl_Example/Pods-HTMICustomControl_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HTMICustomControl/HTMICustomControl.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTMICustomControl.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTMICustomControl_Example/Pods-HTMICustomControl_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		640C7F887F778C80B6E379EC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HTMICustomControl_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		644686D2CBB67C9A5CBC83F7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTMICustomControl_Tests/Pods-HTMICustomControl_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		90678CCE06AB9D8AABB9D9F5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTMICustomControl_Tests/Pods-HTMICustomControl_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D55A6133280ED2709296E9C5 /* [CP] Copy Pods Resources */ = {
+		0C7861FD98E28A6182F8DC1E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,22 +312,79 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTMICustomControl_Example/Pods-HTMICustomControl_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EFB23F330E78D15ACC624114 /* [CP] Check Pods Manifest.lock */ = {
+		2868603D762B5465E2A58BA9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HTMICustomControl_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31DEB956422752403F282C85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		784DB2ACCEBB930EA75A65AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTMICustomControl_Tests/Pods-HTMICustomControl_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		990AC26106C46958452E073A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTMICustomControl_Example/Pods-HTMICustomControl_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B60B3E68709EEBD07A32D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HTMICustomControl_Tests/Pods-HTMICustomControl_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -403,8 +394,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* HTMIAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* HTMIViewController.m in Sources */,
+				6003F59E195388D20070C39A /* htmiAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* htmiViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,7 +521,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F15BF8391E1805856B3C152 /* Pods-HTMICustomControl_Example.debug.xcconfig */;
+			baseConfigurationReference = 50C458C79276CB2B12CEAAF8 /* Pods-HTMICustomControl_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -545,7 +536,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A321CE9BB88322F063A2B939 /* Pods-HTMICustomControl_Example.release.xcconfig */;
+			baseConfigurationReference = 2356D527DB3BFC1B9A0BC129 /* Pods-HTMICustomControl_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -560,7 +551,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DB9322287C4C8D5BC30DDFE /* Pods-HTMICustomControl_Tests.debug.xcconfig */;
+			baseConfigurationReference = 499C14B23728E35A1BF20DFA /* Pods-HTMICustomControl_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -584,7 +575,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB95CAA8CB8EC4EF0B332A78 /* Pods-HTMICustomControl_Tests.release.xcconfig */;
+			baseConfigurationReference = 25975BD6E970FB5DD7E11D93 /* Pods-HTMICustomControl_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of HTMICustomControl.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lqwang521/HTMICustomControl",
+  "homepage": "https://github.com/lovezhaozhiguo/HTMICustomControl",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "lqwang521": "wanglq@htmitech.com"
+    "lovezhaozhiguo": "553002177@qq.com"
   },
   "source": {
-    "git": "https://github.com/lqwang521/HTMICustomControl.git",
+    "git": "https://github.com/lovezhaozhiguo/HTMICustomControl.git",
     "tag": "0.1.0"
   },
   "platforms": {

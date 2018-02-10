@@ -1,30 +1,23 @@
 PODS:
-  - HTMIBaseComponent (1.1.2):
-    - SVProgressHUD (~> 2.1.2)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
   - HTMICustomControl (0.1.0)
-  - SDCycleScrollView (1.75):
-    - SDWebImage (>= 4.0.0)
-  - SDWebImage (4.3.0):
-    - SDWebImage/Core (= 4.3.0)
-  - SDWebImage/Core (4.3.0)
-  - SVProgressHUD (2.1.2)
 
 DEPENDENCIES:
-  - HTMIBaseComponent (~> 1.1.1)
+  - FBSnapshotTestCase
   - HTMICustomControl (from `../`)
-  - SDCycleScrollView (~> 1.65)
 
 EXTERNAL SOURCES:
   HTMICustomControl:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HTMIBaseComponent: d20b7e68f880eac43c0532b323e4d389f5fa64ac
-  HTMICustomControl: 5cc1c6721c7e5b2706d8479bc2f722953945e296
-  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
-  SDWebImage: 6da6c8bca115addc4de8613362e1b15f66333825
-  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HTMICustomControl: 03bf8e47f44ff6fc6b2088a0004e783639984125
 
-PODFILE CHECKSUM: c5211b72134464811ed15e44251644ca9fa61a31
+PODFILE CHECKSUM: 27fd323ecf765e0cb3ee00ce76f7776631edf2ce
 
 COCOAPODS: 1.2.1.beta.1

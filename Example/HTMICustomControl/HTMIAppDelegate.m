@@ -1,14 +1,14 @@
 //
-//  HTMIAppDelegate.m
+//  htmiAppDelegate.m
 //  HTMICustomControl
 //
-//  Created by lqwang521 on 02/09/2018.
-//  Copyright (c) 2018 lqwang521. All rights reserved.
+//  Created by lovezhaozhiguo on 02/09/2018.
+//  Copyright (c) 2018 lovezhaozhiguo. All rights reserved.
 //
 
-#import "HTMIAppDelegate.h"
+#import "htmiAppDelegate.h"
 
-@implementation HTMIAppDelegate
+@implementation htmiAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

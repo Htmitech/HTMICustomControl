@@ -1,6 +1,0 @@
-framework module HTMIBaseComponent {
-  umbrella header "HTMIBaseComponent-umbrella.h"
-
-  export *
-  module * { export * }
-}
