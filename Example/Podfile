@@ -3,6 +3,9 @@ use_frameworks!
 target 'HTMICustomControl_Example' do
   pod 'HTMICustomControl', :path => '../'
 
+  pod 'SDCycleScrollView', '~> 1.65'
+  pod 'HTMIBaseComponent', '~> 1.1.2'
+
   target 'HTMICustomControl_Tests' do
     inherit! :search_paths
 

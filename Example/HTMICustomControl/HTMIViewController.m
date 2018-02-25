@@ -8,6 +8,9 @@
 
 #import "htmiViewController.h"
 
+#import "HTMISettingManager.h"
+#import "UIFont+HTMIFont.h"
+
 @interface htmiViewController ()
 
 @end
